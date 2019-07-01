@@ -3,14 +3,43 @@ Format
 -Exporting Date and Time in dxDataGrid https://www.devexpress.com/Support/Center/Question/Details/T257332/exporting-date-and-time-in-dxdatagrid
 -dxDataGrid - Is it possible to customize an exported document? https://www.devexpress.com/Support/Center/Question/Details/T498672/dxdatagrid-is-it-possible-to-customize-an-exported-document
 -DevExtreme DataGrid \ Export To Excel - Exports Number Totals (Summary) as a string https://www.devexpress.com/Support/Center/Question/Details/T477523/devextreme-datagrid-export-to-excel-exports-number-totals-summary-as-a-string
+*-DataGrid - How to apply different numeric format to each row and export all values as formatted numbers to Excel https://www.devexpress.com/Support/Center/Question/Details/T607185/datagrid-how-to-apply-different-numeric-format-to-each-row-and-export-all-values-as
+*-dxDataGrid - Export with formatting https://www.devexpress.com/Support/Center/Question/Details/T429240/dxdatagrid-export-with-formatting
+
 Export picture
 -DataGrid - Is it possible to export images https://www.devexpress.com/Support/Center/Question/Details/T496004/datagrid-is-it-possible-to-export-images
+
 Заливка
 -dxDataGrid - export to excel: set cells fill color https://www.devexpress.com/Support/Center/Question/Details/T508989/dxdatagrid-export-to-excel-set-cells-fill-color
 -dxDataGrid - Is it possible to export colored data https://www.devexpress.com/Support/Center/Question/Details/T580895/dxdatagrid-is-it-possible-to-export-colored-data
 -Preserve the grid format while exporting https://www.devexpress.com/Support/Center/Question/Details/T620102/preserve-the-grid-format-while-exporting
+*-customize excel from dx-data-grid https://www.devexpress.com/Support/Center/Question/Details/T368035/customize-excel-from-dx-data-grid
+
 Шрифт
 -Export datagrid data should be download without any styles https://www.devexpress.com/Support/Center/Question/Details/T513228/export-datagrid-data-should-be-download-without-any-styles
 -Preserve the grid format while exporting https://www.devexpress.com/Support/Center/Question/Details/T620102/preserve-the-grid-format-while-exporting
+*-customize excel from dx-data-grid https://www.devexpress.com/Support/Center/Question/Details/T368035/customize-excel-from-dx-data-grid
+
 Тоталы
 -DevExtreme DataGrid \ Export To Excel - Exports Number Totals (Summary) as a string https://www.devexpress.com/Support/Center/Question/Details/T477523/devextreme-datagrid-export-to-excel-exports-number-totals-summary-as-a-string
+Экспорт в PDF/DOC
+*-dxDataGrid - Export to PDF/DOCX and adding custom headers/footers to the exported document https://www.devexpress.com/Support/Center/Question/Details/T302082/dxdatagrid-export-to-pdf-docx-and-adding-custom-headers-footers-to-the-exported-document
+
+Export files
+*-DataGrid- Export selected rows is exporting two files https://www.devexpress.com/Support/Center/Question/Details/T631274/datagrid-export-selected-rows-is-exporting-two-files
+*-Export masterDetail Data and grid data in a single excel sheet https://www.devexpress.com/Support/Center/Question/Details/T576652/export-masterdetail-data-and-grid-data-in-a-single-excel-sheet
+
+Export styles
+*-dxDataGrid - Custom styles of cells are not exported to an Excel document https://www.devexpress.com/Support/Center/Question/Details/T403485/dxdatagrid-custom-styles-of-cells-are-not-exported-to-an-excel-document
+
+Название
+*-dxDataGrid - Is it possible to add a title to an exported file? https://www.devexpress.com/Support/Center/Question/Details/T323031/dxdatagrid-is-it-possible-to-add-a-title-to-an-exported-file
+
+HTML
+*-DataGrid - Exporting data doesn't ignore html tags https://www.devexpress.com/Support/Center/Question/Details/T610940/datagrid-exporting-data-doesn-t-ignore-html-tags
+
+Time zone
+*-DataGrid converts date values to a local time zone https://www.devexpress.com/Support/Center/Question/Details/T347762/datagrid-converts-date-values-to-a-local-time-zone
+
+Masterdetails
+*-Export masterDetail Data and grid data in a single excel sheet https://www.devexpress.com/Support/Center/Question/Details/T576652/export-masterdetail-data-and-grid-data-in-a-single-excel-sheet
