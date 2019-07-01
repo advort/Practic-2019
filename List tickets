@@ -10,6 +10,7 @@ Format
 *-DataGrid - How to display negative numbers wrapped in braces in exported Excel file https://www.devexpress.com/Support/Center/Question/Details/T674042/datagrid-how-to-display-negative-numbers-wrapped-in-braces-in-exported-excel-file
 *-DataGrid Excel export number formatted as string https://www.devexpress.com/Support/Center/Question/Details/T654545/datagrid-excel-export-number-formatted-as-string
 *-DataGrid - Numbers are not localized in exported documents  https://www.devexpress.com/Support/Center/Question/Details/T622325/datagrid-numbers-are-not-localized-in-exported-documents
+*-DataGrid doesn't export dates in the 'shortDateShortTime' format if dataType is 'datetime' https://www.devexpress.com/Support/Center/Question/Details/T592026/datagrid-doesn-t-export-dates-in-the-shortdateshorttime-format-if-datatype-is-datetime
 
 Export picture
 -DataGrid - Is it possible to export images https://www.devexpress.com/Support/Center/Question/Details/T496004/datagrid-is-it-possible-to-export-images
@@ -44,6 +45,7 @@ Export styles
 Название файла
 *-dxDataGrid - Is it possible to add a title to an exported file? https://www.devexpress.com/Support/Center/Question/Details/T323031/dxdatagrid-is-it-possible-to-add-a-title-to-an-exported-file
 *-How could I change the export file title? https://www.devexpress.com/Support/Center/Question/Details/T628464/how-could-i-change-the-export-file-title
+*-I would like to provide file name dynamically when user click on export to excel https://www.devexpress.com/Support/Center/Question/Details/T593217/i-would-like-to-provide-file-name-dynamically-when-user-click-on-export-to-excel
 
 HTML
 *-DataGrid - Exporting data doesn't ignore html tags https://www.devexpress.com/Support/Center/Question/Details/T610940/datagrid-exporting-data-doesn-t-ignore-html-tags
@@ -55,6 +57,7 @@ Masterdetails
 *-Export masterDetail Data and grid data in a single excel sheet https://www.devexpress.com/Support/Center/Question/Details/T576652/export-masterdetail-data-and-grid-data-in-a-single-excel-sheet
 *-DataGrid - How to show a nested grid https://www.devexpress.com/Support/Center/Question/Details/T628975/datagrid-how-to-show-a-nested-grid
 *-DataGrid - How to export both master/detail grids to Excel https://www.devexpress.com/Support/Center/Question/Details/T658599/datagrid-how-to-export-both-master-detail-grids-to-excel
+*-DataGrid - Infinite scrolling doesn't work in Master - Detail grid https://www.devexpress.com/Support/Center/Question/Details/T615383/datagrid-infinite-scrolling-doesn-t-work-in-master-detail-grid
 
 Границы ячеек
 *-DevExtreme-Excel Export https://www.devexpress.com/Support/Center/Question/Details/T582138/devextreme-excel-export
@@ -72,12 +75,15 @@ Masterdetails
 *-DataGrid - How to move the "export" button to the left side and change the icon https://www.devexpress.com/Support/Center/Question/Details/T658919/datagrid-how-to-move-the-export-button-to-the-left-side-and-change-the-icon
 *-DataGrid - Export to JSON using the built-in 'export' button https://www.devexpress.com/Support/Center/Question/Details/T642978/datagrid-export-to-json-using-the-built-in-export-button
 *-DevExtreme grid- How to Check condition on click of export in dxGrid https://www.devexpress.com/Support/Center/Question/Details/T617712/devextreme-grid-how-to-check-condition-on-click-of-export-in-dxgrid
+*-DataGrid - How to customize the export excel icon https://www.devexpress.com/Support/Center/Question/Details/T611636/datagrid-how-to-customize-the-export-excel-icon
+*-Is it possible to catch when a report has been printed or exported? https://www.devexpress.com/Support/Center/Question/Details/T596244/is-it-possible-to-catch-when-a-report-has-been-printed-or-exported
 
 Исключение столбца из экспорта
 *-dxDataGrid - How to exclude a column from export https://www.devexpress.com/Support/Center/Question/Details/T252366/dxdatagrid-how-to-exclude-a-column-from-export
 
 Мобильные устройства
 *-DataGrid - Export doesn't work on mobile devices https://www.devexpress.com/Support/Center/Question/Details/T646279/datagrid-export-doesn-t-work-on-mobile-devices
+*-DataGrid - Export to Excel not working on Chrome used on iPad https://www.devexpress.com/Support/Center/Question/Details/T611278/datagrid-export-to-excel-not-working-on-chrome-used-on-ipad
 
 Печать грида
 *-DataGrid - How do you print parts of a grid along with a chart? https://www.devexpress.com/Support/Center/Question/Details/T627237/datagrid-how-do-you-print-parts-of-a-grid-along-with-a-chart
@@ -91,8 +97,20 @@ Export with chart
 Customize export
 *-DataGrid - Is it possible to customize export to excel https://www.devexpress.com/Support/Center/Question/Details/T619707/datagrid-is-it-possible-to-customize-export-to-excel
 
+Добавление дополнительной вкладки
+*-DataGrid - How to add an additional tab to the exported file https://www.devexpress.com/Support/Center/Question/Details/T616722/datagrid-how-to-add-an-additional-tab-to-the-exported-file
+
+Добавление дополнительных строк и столбцов
+*-DataGrid - How to use customizeExportData callback to add more columns and rows https://www.devexpress.com/Support/Center/Question/Details/T615380/datagrid-how-to-use-customizeexportdata-callback-to-add-more-columns-and-rows
+
+Время экспорта файла
+*-Is it possible to catch when a report has been printed or exported? https://www.devexpress.com/Support/Center/Question/Details/T596244/is-it-possible-to-catch-when-a-report-has-been-printed-or-exported
+*-I would like to provide file name dynamically when user click on export to excel https://www.devexpress.com/Support/Center/Question/Details/T593217/i-would-like-to-provide-file-name-dynamically-when-user-click-on-export-to-excel
+
 **-DataGrid - Manuel export has only columns and no data https://www.devexpress.com/Support/Center/Question/Details/T649951/datagrid-manuel-export-has-only-columns-and-no-data
 **-dxDataGrid - Excel file cannot be opened after Export https://www.devexpress.com/Support/Center/Question/Details/T650478/dxdatagrid-excel-file-cannot-be-opened-after-export
 **-DevExtreme exports DataGrid to an Excel file with an incorrect sorting order https://www.devexpress.com/Support/Center/Question/Details/T660388/devextreme-exports-datagrid-to-an-excel-file-with-an-incorrect-sorting-order
 **-Get all rows DataGrid https://www.devexpress.com/Support/Center/Question/Details/T660743/get-all-rows-datagrid
 **-DataGrid - opening Excel export file error "We found a problem with some content" https://www.devexpress.com/Support/Center/Question/Details/T666174/datagrid-opening-excel-export-file-error-we-found-a-problem-with-some-content
+**-DataGrid - How to export to excel with custom store and infinite scrolling https://www.devexpress.com/Support/Center/Question/Details/T601860/datagrid-how-to-export-to-excel-with-custom-store-and-infinite-scrolling
+**-DataGrid - Export Excel dosen't work https://www.devexpress.com/Support/Center/Question/Details/T598644/datagrid-export-excel-dosen-t-work
