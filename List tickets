@@ -5,105 +5,106 @@ Format
 -DevExtreme DataGrid \ Export To Excel - Exports Number Totals (Summary) as a string https://www.devexpress.com/Support/Center/Question/Details/T477523/devextreme-datagrid-export-to-excel-exports-number-totals-summary-as-a-string
 *-DataGrid - How to apply different numeric format to each row and export all values as formatted numbers to Excel https://www.devexpress.com/Support/Center/Question/Details/T607185/datagrid-how-to-apply-different-numeric-format-to-each-row-and-export-all-values-as
 *-dxDataGrid - Export with formatting https://www.devexpress.com/Support/Center/Question/Details/T429240/dxdatagrid-export-with-formatting
-*-How to add column hyperlink in the expored Excel file https://www.devexpress.com/Support/Center/Question/Details/T583053/how-to-add-column-hyperlink-in-the-expored-excel-file
+|*-How to add column hyperlink in the expored Excel file https://www.devexpress.com/Support/Center/Question/Details/T583053/how-to-add-column-hyperlink-in-the-expored-excel-file
 *-dxDataGrid: Convert boolean value to Yes/No in Excel export https://www.devexpress.com/Support/Center/Question/Details/T674819/dxdatagrid-convert-boolean-value-to-yes-no-in-excel-export
 *-DataGrid - How to display negative numbers wrapped in braces in exported Excel file https://www.devexpress.com/Support/Center/Question/Details/T674042/datagrid-how-to-display-negative-numbers-wrapped-in-braces-in-exported-excel-file
 *-DataGrid Excel export number formatted as string https://www.devexpress.com/Support/Center/Question/Details/T654545/datagrid-excel-export-number-formatted-as-string
 *-DataGrid - Numbers are not localized in exported documents  https://www.devexpress.com/Support/Center/Question/Details/T622325/datagrid-numbers-are-not-localized-in-exported-documents
 *-DataGrid doesn't export dates in the 'shortDateShortTime' format if dataType is 'datetime' https://www.devexpress.com/Support/Center/Question/Details/T592026/datagrid-doesn-t-export-dates-in-the-shortdateshorttime-format-if-datatype-is-datetime
 
-Export picture
--DataGrid - Is it possible to export images https://www.devexpress.com/Support/Center/Question/Details/T496004/datagrid-is-it-possible-to-export-images
-*-dxDataGrid Image Export Excel https://www.devexpress.com/Support/Center/Question/Details/T408865/dxdatagrid-image-export-excel
-
-Заливка
+Заливка5
 -dxDataGrid - export to excel: set cells fill color https://www.devexpress.com/Support/Center/Question/Details/T508989/dxdatagrid-export-to-excel-set-cells-fill-color
 -dxDataGrid - Is it possible to export colored data https://www.devexpress.com/Support/Center/Question/Details/T580895/dxdatagrid-is-it-possible-to-export-colored-data
 -Preserve the grid format while exporting https://www.devexpress.com/Support/Center/Question/Details/T620102/preserve-the-grid-format-while-exporting
 *-customize excel from dx-data-grid https://www.devexpress.com/Support/Center/Question/Details/T368035/customize-excel-from-dx-data-grid
 *-dxDataGrid Export - Add Custom Header Row and Customize Font, Background Color of Header https://www.devexpress.com/Support/Center/Question/Details/T549497/dxdatagrid-export-add-custom-header-row-and-customize-font-background-color-of-header
 
-Шрифт
+
+Export picture2
+-DataGrid - Is it possible to export images https://www.devexpress.com/Support/Center/Question/Details/T496004/datagrid-is-it-possible-to-export-images
+*-dxDataGrid Image Export Excel https://www.devexpress.com/Support/Center/Question/Details/T408865/dxdatagrid-image-export-excel
+
+Шрифт3
 -Export datagrid data should be download without any styles https://www.devexpress.com/Support/Center/Question/Details/T513228/export-datagrid-data-should-be-download-without-any-styles
 -Preserve the grid format while exporting https://www.devexpress.com/Support/Center/Question/Details/T620102/preserve-the-grid-format-while-exporting
 *-customize excel from dx-data-grid https://www.devexpress.com/Support/Center/Question/Details/T368035/customize-excel-from-dx-data-grid
 
-Тоталы
+Тоталы1
 -DevExtreme DataGrid \ Export To Excel - Exports Number Totals (Summary) as a string https://www.devexpress.com/Support/Center/Question/Details/T477523/devextreme-datagrid-export-to-excel-exports-number-totals-summary-as-a-string
 
-Экспорт в PDF/DOC/XML
+Экспорт в PDF/DOC/XML2
 *-dxDataGrid - Export to PDF/DOCX and adding custom headers/footers to the exported document https://www.devexpress.com/Support/Center/Question/Details/T302082/dxdatagrid-export-to-pdf-docx-and-adding-custom-headers-footers-to-the-exported-document
 *-is it possible for datagrid export xml instead of xlsx? https://www.devexpress.com/Support/Center/Question/Details/T633313/is-it-possible-for-datagrid-export-xml-instead-of-xlsx
 
-Export files
+Export files2
 *-DataGrid- Export selected rows is exporting two files https://www.devexpress.com/Support/Center/Question/Details/T631274/datagrid-export-selected-rows-is-exporting-two-files
 *-Export masterDetail Data and grid data in a single excel sheet https://www.devexpress.com/Support/Center/Question/Details/T576652/export-masterdetail-data-and-grid-data-in-a-single-excel-sheet
 
-Export styles
+Export styles1
 *-dxDataGrid - Custom styles of cells are not exported to an Excel document https://www.devexpress.com/Support/Center/Question/Details/T403485/dxdatagrid-custom-styles-of-cells-are-not-exported-to-an-excel-document
 
-Название файла
+Название файла3
 *-dxDataGrid - Is it possible to add a title to an exported file? https://www.devexpress.com/Support/Center/Question/Details/T323031/dxdatagrid-is-it-possible-to-add-a-title-to-an-exported-file
 *-How could I change the export file title? https://www.devexpress.com/Support/Center/Question/Details/T628464/how-could-i-change-the-export-file-title
 *-I would like to provide file name dynamically when user click on export to excel https://www.devexpress.com/Support/Center/Question/Details/T593217/i-would-like-to-provide-file-name-dynamically-when-user-click-on-export-to-excel
 
-HTML
+HTML1
 *-DataGrid - Exporting data doesn't ignore html tags https://www.devexpress.com/Support/Center/Question/Details/T610940/datagrid-exporting-data-doesn-t-ignore-html-tags
 
-Time zone
+Time zone1
 *-DataGrid converts date values to a local time zone https://www.devexpress.com/Support/Center/Question/Details/T347762/datagrid-converts-date-values-to-a-local-time-zone
 
-Masterdetails
+Masterdetails4
 *-Export masterDetail Data and grid data in a single excel sheet https://www.devexpress.com/Support/Center/Question/Details/T576652/export-masterdetail-data-and-grid-data-in-a-single-excel-sheet
 *-DataGrid - How to show a nested grid https://www.devexpress.com/Support/Center/Question/Details/T628975/datagrid-how-to-show-a-nested-grid
-*-DataGrid - How to export both master/detail grids to Excel https://www.devexpress.com/Support/Center/Question/Details/T658599/datagrid-how-to-export-both-master-detail-grids-to-excel
+|*-DataGrid - How to export both master/detail grids to Excel https://www.devexpress.com/Support/Center/Question/Details/T658599/datagrid-how-to-export-both-master-detail-grids-to-excel
 *-DataGrid - Infinite scrolling doesn't work in Master - Detail grid https://www.devexpress.com/Support/Center/Question/Details/T615383/datagrid-infinite-scrolling-doesn-t-work-in-master-detail-grid
 
-Границы ячеек
+Границы ячеек1
 *-DevExtreme-Excel Export https://www.devexpress.com/Support/Center/Question/Details/T582138/devextreme-excel-export
 
-Изменение названия листа
-*-How to set the Excel sheet name https://www.devexpress.com/Support/Center/Question/Details/T487102/how-to-set-the-excel-sheet-name
+Изменение названия листа1
+|*-How to set the Excel sheet name https://www.devexpress.com/Support/Center/Question/Details/T487102/how-to-set-the-excel-sheet-name
 
-Управляющие символы
+Управляющие символы1
 *-DataGrid - Unable to export tabulation symbols to Excel https://www.devexpress.com/Support/Center/Question/Details/T668759/datagrid-unable-to-export-tabulation-symbols-to-excel
 
-Добавление строки заголовка
+Добавление строки заголовка1
 *-dxDataGrid Export - Add Custom Header Row and Customize Font, Background Color of Header https://www.devexpress.com/Support/Center/Question/Details/T549497/dxdatagrid-export-add-custom-header-row-and-customize-font-background-color-of-header
 
-Кнопка и меню экспорта
+Кнопка и меню экспорта5
 *-DataGrid - How to move the "export" button to the left side and change the icon https://www.devexpress.com/Support/Center/Question/Details/T658919/datagrid-how-to-move-the-export-button-to-the-left-side-and-change-the-icon
 *-DataGrid - Export to JSON using the built-in 'export' button https://www.devexpress.com/Support/Center/Question/Details/T642978/datagrid-export-to-json-using-the-built-in-export-button
 *-DevExtreme grid- How to Check condition on click of export in dxGrid https://www.devexpress.com/Support/Center/Question/Details/T617712/devextreme-grid-how-to-check-condition-on-click-of-export-in-dxgrid
 *-DataGrid - How to customize the export excel icon https://www.devexpress.com/Support/Center/Question/Details/T611636/datagrid-how-to-customize-the-export-excel-icon
 *-Is it possible to catch when a report has been printed or exported? https://www.devexpress.com/Support/Center/Question/Details/T596244/is-it-possible-to-catch-when-a-report-has-been-printed-or-exported
 
-Исключение столбца из экспорта
+Исключение столбца из экспорта1
 *-dxDataGrid - How to exclude a column from export https://www.devexpress.com/Support/Center/Question/Details/T252366/dxdatagrid-how-to-exclude-a-column-from-export
 
-Мобильные устройства
+Мобильные устройства2
 *-DataGrid - Export doesn't work on mobile devices https://www.devexpress.com/Support/Center/Question/Details/T646279/datagrid-export-doesn-t-work-on-mobile-devices
-*-DataGrid - Export to Excel not working on Chrome used on iPad https://www.devexpress.com/Support/Center/Question/Details/T611278/datagrid-export-to-excel-not-working-on-chrome-used-on-ipad
+|*-DataGrid - Export to Excel not working on Chrome used on iPad https://www.devexpress.com/Support/Center/Question/Details/T611278/datagrid-export-to-excel-not-working-on-chrome-used-on-ipad
 
-Печать грида
+Печать грида1
 *-DataGrid - How do you print parts of a grid along with a chart? https://www.devexpress.com/Support/Center/Question/Details/T627237/datagrid-how-do-you-print-parts-of-a-grid-along-with-a-chart
 
-Индекс строки
+Индекс строки1
 *-dxDataGrid | getRowIndexByKey always returns -1 if keyExpr is not defined https://www.devexpress.com/Support/Center/Question/Details/T622117/dxdatagrid-getrowindexbykey-always-returns-1-if-keyexpr-is-not-defined
 
-Export with chart
+Export with chart1
 *-DxDataGrid custom exportToExcel with chart https://www.devexpress.com/Support/Center/Question/Details/T621922/dxdatagrid-custom-exporttoexcel-with-chart
 
-Customize export
-*-DataGrid - Is it possible to customize export to excel https://www.devexpress.com/Support/Center/Question/Details/T619707/datagrid-is-it-possible-to-customize-export-to-excel
+Customize export1
+|*-DataGrid - Is it possible to customize export to excel https://www.devexpress.com/Support/Center/Question/Details/T619707/datagrid-is-it-possible-to-customize-export-to-excel
 
-Добавление дополнительной вкладки
+Добавление дополнительной вкладки1
 *-DataGrid - How to add an additional tab to the exported file https://www.devexpress.com/Support/Center/Question/Details/T616722/datagrid-how-to-add-an-additional-tab-to-the-exported-file
 
-Добавление дополнительных строк и столбцов
+Добавление дополнительных строк и столбцов1
 *-DataGrid - How to use customizeExportData callback to add more columns and rows https://www.devexpress.com/Support/Center/Question/Details/T615380/datagrid-how-to-use-customizeexportdata-callback-to-add-more-columns-and-rows
 
-Время экспорта файла
+Время экспорта файла2
 *-Is it possible to catch when a report has been printed or exported? https://www.devexpress.com/Support/Center/Question/Details/T596244/is-it-possible-to-catch-when-a-report-has-been-printed-or-exported
 *-I would like to provide file name dynamically when user click on export to excel https://www.devexpress.com/Support/Center/Question/Details/T593217/i-would-like-to-provide-file-name-dynamically-when-user-click-on-export-to-excel
 
