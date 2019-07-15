@@ -50,6 +50,11 @@ function _exportRow(rowIndex, cellCount, row, startColumnIndex, dataProvider, cu
         const cellData = dataProvider.getCellData(rowIndex, cellIndex, true);
         const cell = row.getCell(startColumnIndex + cellIndex);
 
+        if(rowIndex<dataProvider.getHeaderRowCount()){
+            cell.font=cell.font||{};
+            cell.font.bold=true;
+        }        
+
         cell.value = cellData.value;
 
         if(customizeCell !== undefined) {
