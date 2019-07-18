@@ -27,7 +27,7 @@
                 exportDataGrid({
                     component: e.component,
                     worksheet: worksheet,
-                    topLeftCell: { row: 7, column: 1 },
+                    topLeftCell: { row: 1, column: 1 },
                     customizeCell: function(options) {
 
                     }
@@ -45,29 +45,56 @@
                 allowExportSelectedData: true
             },
             columns: [
-                "ID", "FirstName",
-                "LastName", 
-                "City"
+                "ID",{dataField:"Employee"},
+                {dataField:"OrderNumber",format:"percent"},
+                {dataField:"OrderDate", format:"shortDateShortTime"},
+                {dataField:"TotalAmount",format:"currency"},
+                {dataField:"OrderDate", format:'shortDate'}
             ]
         });
     });
 
-    var employees = [{
-        "ID": 1,
-        "FirstName": "John",
-        "LastName": "Heart",
-        "City": "Los Angeles"
-    }, {
-        "ID": 2,
-        "FirstName": "Olivia",
-        "LastName": "Peyton",
-        "City": "Los Angeles"
-    }, {
-        "ID": 3,
-        "FirstName": "Robert",
-        "LastName": "Reagan",
-        "City": "Bentonville"    
-    }];
+    var employees =[{   
+    "ID" : 1,
+    "OrderNumber" : 35703,
+    "OrderDate" : new Date(2014, 3, 10),
+    "SaleAmount" : 11800,
+    "Status":true,
+    "TotalAmount" : 12175,
+    "CustomerStoreState" : "California",
+    "CustomerStoreCity" : "Los Angeles",
+    "Employee" : "Harv Mudd"
+}, {
+    "ID" : 4,
+    "OrderNumber" : 35711,
+    "OrderDate" : new Date(2014, 0, 12),
+    "SaleAmount" : 16050,
+    "Status":true,
+    "TotalAmount" : 16550,
+    "CustomerStoreState" : "California",
+    "CustomerStoreCity" : "San Jose",
+    "Employee" : "Jim Packard"
+}, {
+    "ID" : 5,
+    "OrderNumber" : 35714,
+    "OrderDate" : new Date(2014, 0, 22),
+    "SaleAmount" : 14750,
+    "Status":true,
+    "TotalAmount" : 15250,
+    "CustomerStoreState" : "Nevada",
+    "CustomerStoreCity" : "Las Vegas",
+    "Employee" : "Harv Mudd"
+}, {
+    "ID" : 7,
+    "OrderNumber" : 35983,
+    "OrderDate" : new Date(2014, 1, 7),
+    "SaleAmount" : 3725,
+    "Status":false,
+    "TotalAmount" : 3850,
+    "CustomerStoreState" : "Colorado",
+    "CustomerStoreCity" : "Denver",
+    "Employee" : "Todd Hoffman"
+}];
     </script>
 </body>
 </html>
