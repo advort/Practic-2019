@@ -21,20 +21,22 @@ function exportDataGrid(options) {
             let headerRowCount = dataProvider.getHeaderRowCount();
             let dataRowsCount = dataProvider.getRowsCount();
             //
-            for(let i=0;i<dataRowsCount;i++){
+            for(let i=0;i<columns.length;i++){
                 let coll=worksheet.getColumn(result.from.column+i);
                 switch(i){
-                  case 0:coll.width=10;
+                  case 0:coll.width=5;
                     break;
-                  case 1:coll.width=30;
+                  case 1:coll.width=18;
                     break;
-                  case 2:coll.width=30;
+                  case 2:coll.width=15;
                     break;  
                   case 3:coll.width=25;
                     break;
-                  case 4:coll.width=25;
+                  case 4:coll.width=15;
                     break;
-                  case 5:coll.width=25;
+                  case 5:coll.width=15;
+                    break;
+                  case 6:coll.width=20;
                     break;
                 }
             }
