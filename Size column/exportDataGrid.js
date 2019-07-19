@@ -21,7 +21,7 @@ function exportDataGrid(options) {
             let headerRowCount = dataProvider.getHeaderRowCount();
             let dataRowsCount = dataProvider.getRowsCount();
             //
-            for(let i=0;i<dataRowsCount;i++){
+            for(let i=0;i<columns.length;i++){
                 let coll=worksheet.getColumn(result.from.column+i);
                 coll.width=dataProvider._initialColumnWidthsByColumnIndex[result.from.column+i-1]/7;
             }
