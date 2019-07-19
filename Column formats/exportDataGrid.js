@@ -71,15 +71,19 @@ function _exportRow(rowIndex, cellCount, row, startColumnIndex, dataProvider, cu
         const cell = row.getCell(startColumnIndex + cellIndex);
         //
         if(rowIndex<dataProvider.getHeaderRowCount()){
-            cell.font=cell.font||{};
-            cell.font.bold=true;
-          } else{
+          cell.font=cell.font||{};
+          cell.font.bold=true;
+        } else {
+          if(cellData.cellSourceData.column.format!==undefined && cellData.cellSourceData.column.format.precision===undefined){
             switch(cellData.cellSourceData.column.format){
               case 'currency': 
                 cell.numFmt = '"$"#,##0';
                 break;
               case 'decimal':
-                cell.numFmt = '0';
+                cell.numFmt = '0.#################';
+                break;
+              case 'trillions':
+                cell.numFmt = '#,##0,,,,"T"';
                 break;
               case 'billions':
                 cell.numFmt = '#,##0,,,"B"';
@@ -145,7 +149,75 @@ function _exportRow(rowIndex, cellCount, row, startColumnIndex, dataProvider, cu
                 cell.numFmt = 'd/m/yyyy, h:mm AM/PM';
                 break;
             }
+          } 
+          if(cellData.cellSourceData.column.format!==undefined && cellData.cellSourceData.column.format.precision!==undefined){
+            let s;
+            switch(cellData.cellSourceData.column.format.type){
+              case 'currency': 
+                if(cellData.cellSourceData.column.format.precision>0){
+                  s = '.';
+                  s+='0'.repeat(cellData.cellSourceData.column.format.precision);
+                }
+                cell.numFmt = '"$"#,##0' + s;
+                break;
+              case 'decimal':
+                if(cellData.cellSourceData.column.format.precision>0){
+                  s = '.';
+                  s+='0'.repeat(cellData.cellSourceData.column.format.precision);
+                }
+                cell.numFmt = '0' + s;
+                break;
+              case 'billions':
+                if(cellData.cellSourceData.column.format.precision>0){
+                  s = '.';
+                  s+='0'.repeat(cellData.cellSourceData.column.format.precision);
+                }
+                cell.numFmt = '#,##0,,,' + s + '"B"';
+                break;
+              case 'trillions':
+                if(cellData.cellSourceData.column.format.precision>0){
+                  s = '.';
+                  s+='0'.repeat(cellData.cellSourceData.column.format.precision);
+                }
+                cell.numFmt = '#,##0,,,,' + s + '"T"';
+                break;
+              case 'exponential':
+                if(cellData.cellSourceData.column.format.precision>0){
+                  s='0'.repeat(cellData.cellSourceData.column.format.precision);
+                }
+                cell.numFmt = '0.' + s + 'E+0';
+                break;
+              case 'fixedPoint':
+                if(cellData.cellSourceData.column.format.precision>0){
+                  s = '.';
+                  s+='0'.repeat(cellData.cellSourceData.column.format.precision);
+                }
+                cell.numFmt = '#,##0' + s;
+                break;
+              case 'millions':
+                if(cellData.cellSourceData.column.format.precision>0){
+                  s = '.';
+                  s+='0'.repeat(cellData.cellSourceData.column.format.precision);
+                }
+                cell.numFmt = '#,##0,,' + s + '"M"';
+                break;
+              case 'percent':
+                if(cellData.cellSourceData.column.format.precision>0){
+                  s = '.';
+                  s+='0'.repeat(cellData.cellSourceData.column.format.precision);
+                }
+                cell.numFmt = '0' + s + '%';
+                break;
+              case 'thousands':
+                if(cellData.cellSourceData.column.format.precision>0){
+                  s = '.';
+                  s+='0'.repeat(cellData.cellSourceData.column.format.precision);
+                }
+                cell.numFmt = '#,##0,' + s + '"K"';
+                break;
+            }
           }
+        }
           if(cellData.cellSourceData.column.dataType==='date' && rowIndex>=dataProvider.getHeaderRowCount()){
             cellData.value=new Date(Date.UTC(cellData.value.getFullYear(),cellData.value.getMonth(),cellData.value.getDate(),cellData.value.getHours(),cellData.value.getMinutes(),cellData.value.getSeconds()));
           }

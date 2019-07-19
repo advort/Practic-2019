@@ -46,7 +46,7 @@
             },
             columns: [
                 "ID",{dataField:"Employee"},
-                {dataField:"OrderNumber",format:"percent"},
+                {dataField:"OrderNumber",format:{type:"exponential",precision:3}},
                 {dataField:"OrderDate", format:"shortDateShortTime"},
                 {dataField:"TotalAmount",format:"currency"},
                 {dataField:"OrderDate", format:'shortDate'}
