@@ -4,7 +4,7 @@ Bold column headers in Excel (allow to change text) events?
   - full: https://github.com/advort/Practic-2019/tree/master/Bold%20column%20headers
   - runtime: https://codepen.io/advort/pen/mZZrRW
 Handle column.isBand (one/two levels, captions, customize caption, excel cell merging, check autofilter)
-  - https://github.com/exceljs/exceljs#streaming-xlsx
+  - https://github.com/exceljs/exceljs#merged-cells
   - implementation: https://github.com/advort/Practic-2019/commit/6e851b7b5de67d902ac41e27ab9c099f83368ad1#r34423938
   - full: https://github.com/advort/Practic-2019/tree/master/isBand%20mergeCells
   - runtime: https://codepen.io/advort/pen/xovpzK
