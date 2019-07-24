@@ -1,0 +1,28 @@
+- Bold column headers in Excel (allow to change text) events?
+  - https://github.com/exceljs/exceljs#fonts
+  - implementation: https://github.com/advort/Practic-2019/commit/72014c6046b3a6a9d9a558c7557d199c887837fd#diff-26b4f9178348a6f3e5cfede252ea9305
+  - full: https://github.com/advort/Practic-2019/tree/master/Bold%20column%20headers
+  - runtime: https://codepen.io/advort/pen/mZZrRW
+  
+- Handle filterPanel and filterRow
+- Refer the 'node_modules/exceljs/dist/es5/exceljs.browser' if possible
+- Handle column.isBand (one/two levels, captions, customize caption, excel cell merging, check autofilter)
+- Handle column.fixedPosition (allow to exclude)
+- Data - columns.dataType: object
+- Handle column.alignment
+- Automatically show simple progress indicator (loading panel on CSS icons)
+- Export XML(HTML) tags and specsimbols, as part of value, as part of formats
+- Handle column.format: what we can do with this? automatically prepare some predefined DataGrid formats?
+- Handle column.selectedFilterOperation
+- Handle grid and columns sizes when exporting: export approx the same visual size (handle 100-200% and UHDPI resolutions)
+- Handle column.showWhenGrouped
+- Handle headerFilter (allow to show/hide)
+- Handle noDataText
+- Handle rowAlternationEnabled
+- Handle rtlEnabled
+- Handle showBorders, showColumnHeaders, showColumnLines, showRowLines, wordWrapEnabled
+- Handle allowColumnResizing, allowColumnReordering, columnHidingEnabled, adaptive behavior, horizontal scrolling
+- Handle columns[].width (+ columns[].visibleIndex && allowExporting combinations)
+- Handle autoFilterRow and custom header, autoFilterRow for several grids on one sheet
+- Export dataGrid columns formats to exceljs format
+- Export image from cell (T753293)
