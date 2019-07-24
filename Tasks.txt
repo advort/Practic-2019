@@ -25,6 +25,7 @@ Handle grid and columns sizes when exporting: export approx the same visual size
   - implementation: https://github.com/advort/Practic-2019/commit/eef8e07f3669c986f3ad6c991e4a975dcae807ff#diff-a5b01cc4156e913d8a584e222d463284
   - full: https://github.com/advort/Practic-2019/tree/master/Size%20column
   - runtime: https://codepen.io/advort/pen/ydmVXB
+  - https://github.com/DevExpress/DevExtreme/blob/19_2/js/exporter/excel_creator.js#L327
 - Handle column.showWhenGrouped
   - данная функция работает без каких-либо доработок
   - runtime: https://codepen.io/advort/pen/WVejQy
