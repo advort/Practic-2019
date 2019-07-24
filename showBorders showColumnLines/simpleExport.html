@@ -19,7 +19,9 @@
     $(function(){
         $("#gridContainer").dxDataGrid({
             dataSource: employees,
-            showBorders: true,
+            showBorders: false,
+            showColumnLines: true,
+            showColumnHeaders: true,
             onExporting: function(e) {
                 var workbook = new ExcelJS.Workbook();    
                 var worksheet = workbook.addWorksheet('Main sheet');
@@ -27,7 +29,7 @@
                 exportDataGrid({
                     component: e.component,
                     worksheet: worksheet,
-                    topLeftCell: { row: 1, column: 1 },
+                    topLeftCell: { row: 2, column: 2 },
                     customizeCell: function(options) {
 
                     }
