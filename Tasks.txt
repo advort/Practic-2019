@@ -35,20 +35,21 @@ Handle showBorders, showColumnHeaders, showColumnLines, showRowLines, wordWrapEn
   - implementation: https://github.com/advort/Practic-2019/commit/ea7dde764c887830c5b8978060a7c9f49961be5c#diff-4b8ffb2ad220443118a7c0265cad029d
   - full: https://github.com/advort/Practic-2019/tree/master/showBorders%20showColumnLines
   - runtime: https://codepen.io/advort/pen/NQxEaa?editors=1010
-
 Handle showColumnHeaders
   - implementation: https://github.com/advort/Practic-2019/commit/ea7dde764c887830c5b8978060a7c9f49961be5c#diff-4b8ffb2ad220443118a7c0265cad029d
   - full: https://github.com/advort/Practic-2019/tree/master/showBorders%20showColumnLines
   - runtime: https://codepen.io/advort/pen/NQxEaa
-
 Handle wordWrapEnabled
   - https://github.com/exceljs/exceljs#alignment
   - implementation: https://github.com/advort/Practic-2019/commit/58a78ffa7796832f3d51a3765152bca371e3977e#diff-4b8ffb2ad220443118a7c0265cad029d
   - full: https://github.com/advort/Practic-2019/tree/master/showBorders%20showColumnLines
   - runtime: https://codepen.io/advort/pen/KOVZmL
- 
+Date time zone UTC
+  - https://github.com/advort/Practic-2019/commit/9926d860b37484e4ebe31342eff76ec4b0bc70b5#r34429112
+  - runtime: https://codepen.io/advort/pen/PMNLQz?editors=1010
 Data - columns.dataType: object
   - https://codepen.io/advort/pen/PMNLQz?editors=1010
+  
 - Handle column.fixedPosition (allow to exclude)
 - Export XML(HTML) tags and specsimbols, as part of value, as part of formats
 - Handle rtlEnabled
