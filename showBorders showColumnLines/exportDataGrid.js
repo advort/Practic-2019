@@ -21,18 +21,18 @@ function exportDataGrid(options) {
             let headerRowCount = dataProvider.getHeaderRowCount();
             let dataRowsCount = dataProvider.getRowsCount();
             for(let i=0;i<columns.length;i++){
-                let cell;
-                let coll=worksheet.getColumn(result.from.column+i);
-                switch(i){
-                  case 0:coll.width=10;
-                    break;
-                  case 1:coll.width=30;
-                    break;
-                  case 2:coll.width=30;
-                    break;  
-                  case 3:coll.width=25;
-                    break;
-                }
+              let coll=worksheet.getColumn(result.from.column+i);
+              if(dataProvider._exportController.component._options.wordWrapEnabled===true) coll.alignment={wrapText:true};
+              switch(i){
+                case 0:coll.width=10;
+                  break;
+                case 1:coll.width=30;
+                  break;
+                case 2:coll.width=30;
+                  break;  
+                case 3:coll.width=25;
+                  break;
+              }
             }
             for(let rowIndex = 0; rowIndex < dataRowsCount; rowIndex++) {
                 const row = worksheet.getRow(result.from.row + rowIndex);
