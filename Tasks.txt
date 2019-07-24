@@ -35,19 +35,27 @@ Handle showBorders, showColumnHeaders, showColumnLines, showRowLines, wordWrapEn
   - full: https://github.com/advort/Practic-2019/tree/master/showBorders%20showColumnLines
   - runtime: https://codepen.io/advort/pen/NQxEaa?editors=1010
 
-- Handle filterPanel and filterRow
-- Refer the 'node_modules/exceljs/dist/es5/exceljs.browser' if possible
-- Handle column.fixedPosition (allow to exclude)
+Handle showColumnHeaders
+  - 
+
+Handle wordWrapEnabled
+  - https://github.com/exceljs/exceljs#alignment
+
 - Data - columns.dataType: object
-- Automatically show simple progress indicator (loading panel on CSS icons)
+- Handle column.fixedPosition (allow to exclude)
 - Export XML(HTML) tags and specsimbols, as part of value, as part of formats
+- Handle rtlEnabled
+- Handle autoFilterRow for several grids on one sheet
+
+- Handle filterPanel and filterRow
+- Automatically show simple progress indicator (loading panel on CSS icons)
 - Handle column.selectedFilterOperation
 - Handle headerFilter (allow to show/hide)
 - Handle noDataText
 - Handle rowAlternationEnabled
-- Handle rtlEnabled
 - Handle allowColumnResizing, allowColumnReordering, columnHidingEnabled, adaptive behavior, horizontal scrolling
 - Handle columns[].width (+ columns[].visibleIndex && allowExporting combinations)
 - Handle autoFilterRow and custom header, autoFilterRow for several grids on one sheet
 - Handle column.format: what we can do with this? automatically prepare some predefined DataGrid formats?
 - Export image from cell (T753293)
+- Refer the 'node_modules/exceljs/dist/es5/exceljs.browser' if possible
