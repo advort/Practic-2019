@@ -47,7 +47,8 @@ Handle wordWrapEnabled
   - full: https://github.com/advort/Practic-2019/tree/master/showBorders%20showColumnLines
   - runtime: https://codepen.io/advort/pen/KOVZmL
  
-- Data - columns.dataType: object
+Data - columns.dataType: object
+  - https://codepen.io/advort/pen/PMNLQz?editors=1010
 - Handle column.fixedPosition (allow to exclude)
 - Export XML(HTML) tags and specsimbols, as part of value, as part of formats
 - Handle rtlEnabled
