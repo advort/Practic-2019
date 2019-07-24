@@ -18,6 +18,7 @@ Export dataGrid columns formats to exceljs format
   - implementation:
       1.https://github.com/advort/Practic-2019/commit/96f7361d29b53ba2ac2d593aa6f00067d01c9af2#diff-7ef86e8e6713e464f5d096e813e6e2d3
       2.https://github.com/advort/Practic-2019/commit/9926d860b37484e4ebe31342eff76ec4b0bc70b5#diff-7ef86e8e6713e464f5d096e813e6e2d3
+      3.https://github.com/advort/Practic-2019/commit/9926d860b37484e4ebe31342eff76ec4b0bc70b5#r34429112
   - full: https://github.com/advort/Practic-2019/tree/master/Column%20formats
   - runtime: https://codepen.io/advort/pen/PMYebZ
 Handle grid and columns sizes when exporting: export approx the same visual size (handle 100-200% and UHDPI resolutions)
@@ -26,7 +27,7 @@ Handle grid and columns sizes when exporting: export approx the same visual size
   - full: https://github.com/advort/Practic-2019/tree/master/Size%20column
   - runtime: https://codepen.io/advort/pen/ydmVXB
   - https://github.com/DevExpress/DevExtreme/blob/19_2/js/exporter/excel_creator.js#L327
-- Handle column.showWhenGrouped
+Handle column.showWhenGrouped
   - данная функция работает без каких-либо доработок
   - runtime: https://codepen.io/advort/pen/WVejQy
 Handle showBorders, showColumnHeaders, showColumnLines, showRowLines, wordWrapEnabled
@@ -36,11 +37,16 @@ Handle showBorders, showColumnHeaders, showColumnLines, showRowLines, wordWrapEn
   - runtime: https://codepen.io/advort/pen/NQxEaa?editors=1010
 
 Handle showColumnHeaders
-  - 
+  - implementation: https://github.com/advort/Practic-2019/commit/ea7dde764c887830c5b8978060a7c9f49961be5c#diff-4b8ffb2ad220443118a7c0265cad029d
+  - full: https://github.com/advort/Practic-2019/tree/master/showBorders%20showColumnLines
+  - runtime: https://codepen.io/advort/pen/NQxEaa
 
 Handle wordWrapEnabled
   - https://github.com/exceljs/exceljs#alignment
-
+  - implementation: https://github.com/advort/Practic-2019/commit/58a78ffa7796832f3d51a3765152bca371e3977e#diff-4b8ffb2ad220443118a7c0265cad029d
+  - full: https://github.com/advort/Practic-2019/tree/master/showBorders%20showColumnLines
+  - runtime: https://codepen.io/advort/pen/KOVZmL
+ 
 - Data - columns.dataType: object
 - Handle column.fixedPosition (allow to exclude)
 - Export XML(HTML) tags and specsimbols, as part of value, as part of formats
