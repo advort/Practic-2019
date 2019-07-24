@@ -29,6 +29,10 @@ Handle grid and columns sizes when exporting: export approx the same visual size
   - данная функция работает без каких-либо доработок
   - runtime: https://codepen.io/advort/pen/WVejQy
 Handle showBorders, showColumnHeaders, showColumnLines, showRowLines, wordWrapEnabled
+  - https://github.com/exceljs/exceljs#borders
+  - implementation: https://github.com/advort/Practic-2019/commit/ea7dde764c887830c5b8978060a7c9f49961be5c#diff-4b8ffb2ad220443118a7c0265cad029d
+  - full: https://github.com/advort/Practic-2019/tree/master/showBorders%20showColumnLines
+  - runtime: https://codepen.io/advort/pen/NQxEaa?editors=1010
 
 - Handle filterPanel and filterRow
 - Refer the 'node_modules/exceljs/dist/es5/exceljs.browser' if possible
