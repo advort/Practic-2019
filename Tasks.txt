@@ -46,14 +46,20 @@ Handle wordWrapEnabled
   - runtime: https://codepen.io/advort/pen/KOVZmL
 Date time zone UTC
   - https://github.com/advort/Practic-2019/commit/9926d860b37484e4ebe31342eff76ec4b0bc70b5#r34429112
-  - runtime: https://codepen.io/advort/pen/PMNLQz?editors=1010
+  - runtime: https://codepen.io/advort/pen/MNeXLj
 Data - columns.dataType: object
-  - https://codepen.io/advort/pen/PMNLQz?editors=1010
-  
-- Handle column.fixedPosition (allow to exclude)
-- Export XML(HTML) tags and specsimbols, as part of value, as part of formats
-- Handle rtlEnabled
-- Handle autoFilterRow for several grids on one sheet
+  - https://codepen.io/advort/pen/MNeXLj
+Handle column.fixedPosition (allow to exclude)
+  - столбцы меняют порядок в соответствии с настройками fixedPosition, но freezeColumns в excel не активируется
+  - https://codepen.io/advort/pen/ymJqLg
+Export XML(HTML) tags and specsimbols, as part of value, as part of formats
+  - ни в форматах, ни в значениях специальные символы не воспринимаются, для экспорта это просто текст
+  - https://codepen.io/advort/pen/ymJqLg
+Handle rtlEnabled
+  - столбцы из грида экспортятся в обратном порядке, от последнего к первому
+Handle autoFilterRow for several grids on one sheet
+  - как я понял, на одном листе можно указать только один автофильтр, из этого получается, что фильтр накладывается на оба грида сразу, а повторное задание фильтра переназначает его координаты
+  - https://codepen.io/advort/pen/wVWYrO
 
 - Handle filterPanel and filterRow
 - Automatically show simple progress indicator (loading panel on CSS icons)
