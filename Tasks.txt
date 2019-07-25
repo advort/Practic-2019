@@ -56,7 +56,8 @@ Export XML(HTML) tags and specsimbols, as part of value, as part of formats
   - ни в форматах, ни в значениях специальные символы не воспринимаются, для экспорта это просто текст
   - https://codepen.io/advort/pen/ymJqLg
 Handle rtlEnabled
-  - столбцы из грида экспортятся в обратном порядке, от последнего к первому
+  - обрабатывается неправильно, в другом порядке
+  - https://codepen.io/advort/pen/MNeLwg
 Handle autoFilterRow for several grids on one sheet
   - как я понял, на одном листе можно указать только один автофильтр, из этого получается, что фильтр накладывается на оба грида сразу, а повторное задание фильтра переназначает его координаты
   - https://codepen.io/advort/pen/wVWYrO
